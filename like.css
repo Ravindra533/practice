@@ -1,0 +1,67 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Castoro Titling', cursive;
+    box-shadow: rgba(0, 0, 0, 0.2);
+
+}
+
+.hero-image {
+    background-image: url(healthy-food-selection-healthy-food-selection-fruits-vegetables-seeds-superfood-cereals-gray-background-121936825.jpg);
+
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+
+
+}
+.normal{
+    padding: 7%;
+}
+h1{
+    margin: -0.33em;
+}
+
+.hero-wrapper {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero-wrapper h1 {
+    text-align: center;
+    font-size: 2.4rem;
+}
+
+.form-code {
+    text-align: center;
+}
+
+.form-code .post-code {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .6rem;
+    border: none;
+    outline: none;
+
+}
+
+.form-code button {
+    width: 40%;
+    text-align: center;
+    background-color: rgb(11, 212, 145);
+    color: #ffffff;
+    padding: .6rem;
+    border: none;
+    border-radius: .3rem;
+    margin: 1rem auto 0rem;
+}
